@@ -30,11 +30,11 @@ currValue.addEventListener("input",function(event){
 function onKeyUp(event){
     // Here we have to check which key is entered
     if(event.key==="Backspace"){
-    console.log("We have Eneter the backspace");
+    // console.log("We have Eneter the backspace");
     // ok now we can catch the backspace value
     // Step 2 Here we need to clear the value of the value in the target elemet
     event.target.value="";
-    console.log("Value is cleared");
+    // console.log("Value is cleared");
  /// now STEP: 3 we need to go to the prev element
     if(event.target.previousElementSibling){
         event.target.previousElementSibling.focus();
